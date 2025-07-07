@@ -11,7 +11,7 @@ const { Builder,Browser, By, Key, until } = require('selenium-webdriver');
             await emailField.sendKeys('your email');
     
             const passwordField = await driver.findElement(By.name('password'));
-            await passwordField.sendKeys('A@sqweqwe12');
+            await passwordField.sendKeys('your pass');
     
             const loginButton = await driver.findElement(By.css('button[type="submit"]'));
             await loginButton.click();
